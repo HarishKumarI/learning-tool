@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+
+.Title {
+  color: #767a82;
+  display: flex;
+  border-bottom: 2px solid #4e5b79;
+  min-height: 25vh;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #171b23aa;
+  filter: invert();
+}
+
+.title_container {
+  background-image: url(bg_tile.png);
+  filter: invert();
+  /* changed for firefox */
+  /* z-index:-1; */
+}
+
+.main_title {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.qbox {
+  margin-top: 10px;
+  height: 50px;
+  width: 800px;
+  font-size: 25px;
+  background: #171b23;
+  border-radius: 10px;
+  border: 1px solid #4e5b79;
+  color: #EFEFEF;
+  padding: 10px;
+}
+
+.qbox:hover {
+  border-color: lightblue;
+  border-width: 1px;
+}
+
+.qbox:focus {
+  outline-width: 0;
+}
+
+.q_current {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.abox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10px;
+  width: 800px;
+  font-size: 15px;
+  background: #171b23;
+  border-radius: 10px;
+  min-height: 200px;
+  padding: 10px;
+  border: 1px solid #171b23;
+  color: #a8abb1;
+  animation-name: fadein;
+  animation-duration: 4s;
+}
+
+.ansbox {
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10px;
+  width: 800px;
+  font-size: 15px;
+  background: #171b23;
+  border-radius: 10px;
+  min-height: 200px;
+  padding: 10px;
+  border: 1px solid #171b23;
+  color: #a8abb1;
+  animation-name: fadein;
+  animation-duration: 4s;
+}
+
+.qa_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.qc_btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qc_buttons {
+  display: inline-block;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 800px;
+  bottom: 0px;
+  position: fixed;
+  background-color: #282c34;
+  padding: 8px 0;
+  height: 55px;
+}
+
+.btnsmenu:hover {
+  background-color: #8a8a8a;
+}
+
+.qc_buttons button {
+  border: 1px solid rgb(126, 123, 123);
+}
+
+#messageBox {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  vertical-align: middle;
+  position: fixed;
+  height: fit-content;
+  width: fit-content;
+  padding: 12px 20px;
+  z-index: 10;
+  right: 20px;
+  background-color: rgba(135, 189, 135, 0.8);
+  opacity: 0;
+  animation: fadeInUp;
+  animation-duration: 8s;
+}
+
+/*  new changes start  */
+
+.pred_title {
+  width: 100%;
+  color: white;
+  justify-content: center;
+  cursor: default;
+}
+
+.pred_data ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: default;
+}
+
+/* new changes end */
+
+@keyframes fadein {
+  from {
+    background-color: #282c34;
+  }
+  to {
+    background-color: #171b23;
+  }
+}
+
+
+@keyframes fadeInUp {
+  0% {
+    bottom: 40px;
+    opacity: 0;
+    /* -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); */
+  }
+  5%{opacity: 1; bottom: 50px;}
+  100%{
+    /* -webkit-transform: none;
+    transform: none; */
+    display: none;
+  }
+}

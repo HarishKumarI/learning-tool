@@ -1,0 +1,1407 @@
+[
+    {
+        "answer_json": {
+            "answer": [
+                "<X.name> is located at Digital Print Services, second floor, Pollak Library North (PLN-220).",
+                "<X.name> is located at Digital Print Services, second floor, Pollak Library North (PLN-220).",
+                "<X.name> is located at 4th Floor, Pollak Library North."
+            ],
+            "failed_assoc_prob_list": [],
+            "pred_tuples": [
+                [
+                    "located_at",
+                    "color_print",
+                    "X"
+                ],
+                [
+                    "located_at",
+                    "color_print",
+                    "Y"
+                ],
+                [
+                    "located_at",
+                    "infra",
+                    "Z"
+                ]
+            ],
+            "res_dict": "{'trigger_info': [{'predicates': {6: defaultdict(<class 'list'>,\n                                                 {'color print': [(('located_at',\n                                                                    1.0),\n                                                                   ([('print_type',\n                                                                      0.999821),\n                                                                     ('printing',\n                                                                      3.8507173e-07),\n                                                                     ('special_print',\n                                                                      1.4818667e-07)],\n                                                                    'color '\n                                                                    'print'),\n                                                                   ([(False,\n                                        \u2026",
+            "response": [
+                [
+                    [
+                        [
+                            "located_at",
+                            "color_print",
+                            "Digital Print Services, second floor, Pollak Library North (PLN-220)"
+                        ]
+                    ]
+                ],
+                [
+                    [
+                        [
+                            "located_at",
+                            "color_print",
+                            "Digital Print Services, second floor, Pollak Library North (PLN-220)"
+                        ]
+                    ]
+                ],
+                [
+                    [
+                        [
+                            "located_at",
+                            "infra",
+                            "4th Floor, Pollak Library North"
+                        ]
+                    ]
+                ]
+            ],
+            "results": [
+                [
+                    "located_at(print_type,?)",
+                    {
+                        "p": "located_at",
+                        "x": "color print",
+                        "y": "where",
+                        "neg": "\\\\b(?:where)\\\\b"
+                    }
+                ],
+                [
+                    "located_at(print_type,?)",
+                    {
+                        "p": "located_at",
+                        "x": "color print",
+                        "y": "i",
+                        "neg": "\\\\b(?:where)\\\\b"
+                    }
+                ],
+                [
+                    "located_at(infra,?)",
+                    {
+                        "p": "located_at",
+                        "x": "i",
+                        "y": "where",
+                        "neg": "\\\\b(?:where)\\\\b"
+                    }
+                ]
+            ],
+            "node_doc_results": "node_doc_results",
+            "nudge_dict": {}
+        },
+        "question": "where is the library's reference desk?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when is library open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the library's reference desk?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "np where is the library's reference desk?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when is the library working",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is library open tomorrow",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library events",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library timing",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where do i go if my library room in 4th floor is locked",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "starbucks library hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library open time",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the library hours today",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf library hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i check out books in the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the types of library fines?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what floor of the library are the computers on",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the different levels of the pollak library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i find pollak library map?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "can i print in the library using my own computer?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "can i print in the library using my phone?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "contact of library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "call the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where in the library are academic and business sources?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where in the library are business sources?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where in the library are academic sources?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "map of library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "anu where is pollak library north",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf where is pollak library south",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is pollak library south",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf where is pollak library north",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i study in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the library close",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how to find a library book",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the library hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "does the library sell scantrons",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library open?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf are there any scantrons in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the starbucks close in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tsu and library hours?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollock library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "polluck library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollack library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time is the pollak library open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when is library open?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "test where is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "phone number of library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "timings of library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "contact career center library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is there a microwave in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "contact of library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "call the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library timings",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when does library close",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how to borrow books from library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf how much is library fines?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "there's someone eating food loudly on the library's quiet floor",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is there a library quiet floor",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is pollak library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how much is library science",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how much is library fines",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i print at the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when does library open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is library ?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf test how do i reserve a smart group study room at library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is pollock library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollak library north 420",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i print in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when is the library open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the pollak library close",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i check put a library book",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what app can i use to order starbucks in library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is library? tf",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the library hours during intersession?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "contact library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when does the library open?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "phone number of library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is pollak library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how much is library fines?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the library drinking water?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the library ?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when does library open at friday?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library open now",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library closed",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how long will the library be open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the research center in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the library open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where's pollak library south",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "are there study rooms in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is tbe library open tomorrow",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the library open?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when the library open?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "wherr is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollak library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the different levels of the pollak library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "anu where is pollak library south",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the starbucks in the library close",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how can i logg onto a computer in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "titan library operations hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is public library south",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "different floors of the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how to sign into library computers",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "irvine library hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the public library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when does the library close",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what's the extension to the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf where is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i print on the library computers",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when does the library open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollak library starbucks",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does pollak library close",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "ms- when does the library open?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "np- when does the library open?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "wha time does the library open?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i print my papers that is not in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how much are the library fines?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how much does it cost to print at the irvine center library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is restrooms at pollak library south? tf",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "honors center in library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is pollack library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i sign into the computer at the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "zbrush software in library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollak library hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf zbrush software in library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "room reservation library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what is my reservation in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what's the library our",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "np pollak library events",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library open today",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "whee is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf whee is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "are there any job opportunities at the campus library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is room 180 in the pollak library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library open time on nov.26",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "and where is the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library open time on december 1",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "np where can i find pollak library map?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library computer not connecting to internet",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is food allowed on the fourth floor of the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "can you eat in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library open hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when does pollak library open?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the times for the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where's the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollard library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "and where is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library open on sunday",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the library hours.",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where do i return my book borrowed from the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "does the library have color printers?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where are library computers for classroom use?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollak library map",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf can i print in the library using my own computer?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf can i print in the library using my phone?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "np where do i return my book borrowed from the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is there any job opportunities in library for students",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the events in library this week",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where are the library events listed",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when can i avail tutoring",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the cell phone usage rules in library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is there a code of conduct to be followed while using library facilities",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i get detailed information about library fines",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is there assistance for people with disabilities in library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how can i renew the books i borrowed from library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what is the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "take me to the library.",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i get to the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i go to the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "navigate pollock library.",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "navigate to library.",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what is the library policy",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i find library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the pollak library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how to borrow a book from the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "why should i not spill food in the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how can i renew the books i borrowed from the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how to steal books from the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "well library open today",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf where is the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time is the library open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i park near the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how much is the library fines",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "does the library have computers",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how to drop class",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "does the library have archives assistant",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "connect me to library assistant",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library open during spring break",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how to get to library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when is the library open tomorrow?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when is the library open next friday?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i establish borrowing privileges at the pool of library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "can i print in library with my laptop?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library open on feb 21",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "when does library open next friday?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "does the library have color print?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how can i print at the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "wher is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library closed now",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf how do i reserve a smart group study room at library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "sickness",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what floor of the library other computers on",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "i spilt my drink in the library.",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i find study space in the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "wgeee is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "well where is library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "can i eat in the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "which floor of the library are the computers on?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is pulak library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is the library open today?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "are there adobe programs in the library computers?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "show me the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "np contact library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the library open and close today",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "polk library north 420",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "np- when does the library open monday?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time is library open tomorrow",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is library open today",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "the 4th floor in the library is warm can you turn off the heater",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "polak library north for 20",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how much is the winter session",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the pollak library open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i print in the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is there any quiet study area in library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where can i find picture books in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are the hours for the library circulation desk",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what do i do if i spill my drink in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "does the library have headphones?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what do i do if i spill my drink of food in the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "does the library have a coffee shop?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i establish drawing privileges at the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i establish borrowing privileges at the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "can i print in library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "are there any student job openings at the campus library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "can the library printers do color print?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what are library hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "where is the library reference desk?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "np when is library circulation desk open",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the library open tuesday",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time does the library close ?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what if i spill food in the library",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what time is the library open during finals week",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "tf where is interlibrary loan office?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what do i do if i spill my drink or food in the library ?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "is starbucks open in the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "why can't i access journals on the library website",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "can the library printers do color copies?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "does the library have a color printer?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "library open time during thanksgiving",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollak library number",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "pollak library starbucks hours",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i log into library computers",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "how do i checkout books in the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "are there study rooms in the library?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "what is the library's research center?",
+        "status": "not_reviewed"
+    },
+    {
+        "answer_json": {},
+        "question": "anu where is pollak library",
+        "status": "not_reviewed"
+    }
+]

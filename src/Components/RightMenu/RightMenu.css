@@ -1,0 +1,370 @@
+.rightMenu {
+    top: 0;
+    right: 0;
+    position: fixed;
+    height: 100vh;
+    width: auto;
+    /* display: inline-block; */
+    z-index: 3;
+}
+
+#menu-list {
+    float: left;
+    top: 0;
+    color: white;
+    width: fit-content;
+    writing-mode: vertical-rl;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    /* display: inline-block; */
+    height: 95%;
+}
+
+#menu-list div {
+    margin: 0;
+    padding: 0;
+}
+
+#menu-list div {
+    float: left;
+    height: fit-content;
+    /* display: inline-block; */
+    color: #fff;
+    padding: 8px 8px;
+    text-decoration: none;
+    list-style-type: none;
+    border: 1px solid white;
+    background-color: rgba(23, 27, 35, 1);
+    transform: rotate(180deg);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#mainrgtmenu {
+    top: 0;
+    width: 38vw;
+    max-width: 380px;
+    color: white;
+    padding-top: 30px;
+    height: 100vh;
+    display: inline-block;
+    background-color: rgba(23, 27, 35, 0.842);
+    border-left: 1px solid rgba(256, 256, 256, 0.06);
+    /* overflow-y: scroll; */
+    display: none;
+}
+
+.questions {
+    width: 95%;
+    /* padding: 10px; */
+    margin: 10px;
+    max-height: 73vh;
+    background-color: rgb(46, 47, 51);
+    overflow-y: scroll;
+    border: 1px solid rgba(88, 88, 88, 0.63);
+    border-radius: 5px;
+}
+
+.questions::-webkit-scrollbar-track {
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 10px;
+    background-color: rgba(160, 160, 159, 0.76);
+}
+
+.questions::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.642);
+}
+
+.questions::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+.questions ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+.questions ul li {
+    padding: 3px 5px;
+    border: 1px solid rgb(110, 108, 108);
+    color: black;
+    cursor: pointer;
+}
+
+.accordion {
+    padding-top: 30px;
+}
+
+.collapse {
+    border-top: 1px solid #444040;
+    color: white;
+    text-align: left;
+}
+
+.card {
+    background-color: rgba(23, 27, 35, 1);
+    border: 1px solid rgb(51, 51, 51);
+}
+
+.card-header button, .card-header button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.words {
+    position: relative;
+    margin: 0;
+    padding: 2px;
+    width: inherit;
+    max-height: 175px;
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.words li {
+    list-style-type: none;
+    border: 1px solid white;
+    display: inline-block;
+    width: max-content;
+    margin: 3px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 95%;
+}
+
+.words li .content {
+    word-wrap: break-word;
+}
+
+.new_word, .new_word:active, .new_word:focus {
+    color: rgb(245, 237, 237);
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: unset;
+    margin-bottom: 5px;
+}
+
+.words li .close_btn {
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 15px;
+    padding: 0 1.5px;
+    line-height: 15px;
+    float: right;
+    margin-left: 4px;
+    display: none;
+}
+
+.words li:hover .close_btn {
+    display: inline-block;
+}
+
+#nodeiderror, #nodenameerror, #descerror, #modelnodeerror, #parentnodeerror, #relationerror {
+    display: none;
+}
+
+/* for model in graph tool */
+
+.ModelBox {
+    z-index: 100;
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid white;
+    position: fixed;
+    top: calc(50vh - 350px);
+    left: calc(50vw - 400px);
+    width: 800px;
+    height: 700px;
+    background-color: rgba(23, 27, 35, 1);
+    border-radius: 8px;
+    padding: 15px;
+    padding-top: 10px;
+}
+
+.ModelBox .container {
+    width: 400px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.steps * {
+    margin: 0 0 15px 0;
+    /* padding: 0; */
+    text-align: center;
+}
+
+/* progress bar */
+
+/*
+
+.progressbar {
+    counter-reset: step;
+}
+
+.progressbar li {
+    position: relative;
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+
+.progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2979FF;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    background-color: #FF9100;
+    line-height: 39px;
+}
+
+.progressbar li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: orange;
+    top: 20px;
+    left: -50%;
+    z-index: -1;
+}
+
+.progressbar li:first-child:after {
+    content: none;
+}
+
+.progressbar li.active:before {
+    background: #00E676;
+    content: "✔";
+}
+
+.progressbar li.active+li:after {
+    background: #00E676;
+}
+*/
+
+.progressbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    list-style: none;
+    margin: 20px 0 40px 0;
+}
+
+.step {
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+
+.step:not(:last-child):before, .step:not(:last-child):after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 0.25rem;
+    content: '';
+    transform: translate(7%,-110%);
+    will-change: width;
+    z-index: -1;
+}
+.step:before {
+    width: 88%;
+    background-color: #e6e7e8;
+}
+.step:after {
+    width: 0;
+    background-color: #88f185e1;
+}
+
+.step .step_icon {
+    position: relative;
+    width: 6rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.15rem solid rgb(239, 243, 236);
+    border-radius: 50%;
+    color: transparent;
+    font-size: 2.5rem;
+}
+
+.step .step_icon:before {
+    display: inline-block;
+    color: #fff;
+    content: '\2713';
+    /* color: green; */
+}
+
+.step .step_label {
+    position: absolute;
+    width: fit-content;
+    bottom: -3rem;
+    left: 50%;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transform: translate(-50%,30%);
+}
+
+
+.step-complete:after {
+    width: 88% !important;
+    opacity: 1;
+    transition: width 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+.step--complete.step--active .step__icon {
+    color: #fff;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.step-complete .step_icon{
+    background-color: rgba(186, 246, 178, 0.931);
+    border: 0.15rem solid rgba(136, 243, 136, 0.643);
+}
+
+.step-incomplete .step_icon{
+    background-color: rgba(246, 246, 246, 0.643);
+}
+
+.step-incomplete.step-inactive .step_label {
+    color: #e6e7e8;
+}
+
+.step-incomplete.step-active .step_label {
+    color: #e6e7e8;
+}
+
+.step-complete.step-active .step_label {
+    color: rgb(115, 230, 87);
+}
+
+.step-complete.step-active .step_icon:before {
+    display: inline-block;
+    color: #fff;
+    content: '\2713';
+    color: green;
+}
+
+.step--active .step__label {
+    transition: color 0.3s ease-in-out;
+    transition-delay: 0.5s;
+}
